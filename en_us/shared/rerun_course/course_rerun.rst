@@ -70,7 +70,7 @@ For more information, see :ref:`Use Re-Run to Create a Course` and
 .. _Use Re-Run to Create a Course:
 
 ********************************************
-Using Re-Run to Create a Course
+Use Re-Run to Create a Course
 ********************************************
 
 .. only:: Partners
@@ -92,45 +92,43 @@ Using Re-Run to Create a Course
   are complete. Additions and changes that you make to the original course
   after you create the new course have no effect on the new course.
 
-.. Comment out the procedure to create rerun, since only Global Admin (i.e.
-.. edX internal can do this) Done as part of DOC-2236 (CT, Sept 11, 2015)
-   To re-run a course, follow these steps.
+To re-run a course, users who have the required permissions follow these steps.
 
-   #. Sign in to Studio. Your dashboard lists the courses that you have access
-      to as a course team member.
+#. Sign in to Studio. Your dashboard lists the courses that you have access to
+   as a course team member.
 
-   #. Move your cursor over each row in the list of courses. The **Re-Run
-      Course** and **View Live** options appear for each course.
+#. Move your cursor over each row in the list of courses. The **Re-Run Course**
+   and **View Live** options appear for each course.
 
-      .. image:: ../../../shared/images/Rerun_link.png
-        :alt: A course listed on the dashboard with the Re-run Course and View
+   .. image:: ../../../shared/images/Rerun_link.png
+    :alt: A course listed on the dashboard with the Re-run Course and View
            Live options shown.
-        :width: 600
+    :width: 600
 
-   #. Locate the course you want to re-run and select **Re-Run Course**. The
-      **Create a re-run of a course** page opens with values already supplied
-      in the **Course Name**, **Organization**, and **Course Number** fields.
+#. Locate the course you want to re-run and select **Re-Run Course**. The
+   **Create a re-run of a course** page opens with values already supplied in
+   the **Course Name**, **Organization**, and **Course Number** fields.
 
-      .. image:: ../../../shared/images/rerun_course_info.png
-        :alt: The course creation page for a rerun, with the course name,
+   .. image:: ../../../shared/images/rerun_course_info.png
+     :alt: The course creation page for a rerun, with the course name,
            organization, and course number supplied.
-        :width: 600
+     :width: 600
 
-   #. Supply a **Course Run** to indicate when the new course will be offered.
+#. Supply a **Course Run** to indicate when the new course will be offered.
 
-      Together, the course number, the organization, and the course run are
-      used to create the URL for the new course. The combination of these three
-      values must be unique for the new course. In addition, the total number
-      of characters used for the name, organization, number, and run must be 65
-      or fewer.
+   Together, the course number, the organization, and the course run are
+   used to create the URL for the new course. The combination of these three
+   values must be unique for the new course. In addition, the total number
+   of characters used for the name, organization, number, and run must be 65
+   or fewer.
 
-   #. Select **Create Re-Run**. Your **My Courses** dashboard opens with a
-      status message about the course creation process.
+#. Select **Create Re-Run**. Your **My Courses** dashboard opens with a
+   status message about the course creation process.
 
-      Duplication of the course structure and content takes several minutes.
-      You can work in other parts of Studio or in the LMS, or on other web
-      sites, while the process runs. The new course appears on your **My
-      Courses** dashboard in Studio when configuration is complete.
+   Duplication of the course structure and content takes several minutes.
+   You can work in other parts of Studio or in the LMS, or on other web
+   sites, while the process runs. The new course appears on your **My
+   Courses** dashboard in Studio when configuration is complete.
 
 
 .. _Update the New Course:
@@ -163,6 +161,19 @@ course for release.
 * Delete or edit posts on the **Course Updates** page in Studio. See :ref:`Add
   a Course Update`.
 
+* For a course that includes :ref:`learner cohorts<Enabling and Configuring
+  Cohorts>`, set up the cohorts and select a strategy for assigning learners to
+  the cohorts.
+
+* For a course that includes drag and drop problems, replace any problems
+  created prior to April 2016, with the newer drag and drop problem component,
+  which is accessible and mobile ready. For more information about enabling the
+  new drag and drop problem type and adding these problems to your course, see
+  :ref:`drag_and_drop_problem`.
+
+The following additional changes can also improve the experience of learners
+who enroll in the new course run.
+
 * Review the files on the **Files & Uploads** page. To update a file that
   contains references to course-related dates, you must complete the
   following steps.
@@ -185,15 +196,18 @@ course for release.
 
 * Add initial wiki articles.
 
-* For a course that includes :ref:`learner cohorts<Enabling and Configuring
-  Cohorts>`, set up the cohorts and select a strategy for assigning learners to
-  the cohorts.
+* For a course that includes core problem types, including checkbox, text
+  input, or math expression input problems, review the
+  :ref:`Markdown-style formatting <Simple Editor>` or :ref:`OLX markup
+  <Advanced Editor>` of any problems created before September 2016.
+  For more information about the updates that you can make to improve the
+  accessibility of these problem types, see the :ref:`Release Notes
+  <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`.
 
-* For a course that includes drag and drop problems, replace any problems
-  created prior to April 2016, with the newer drag and drop problem component,
-  which is accessible and mobile ready. For more information about enabling the
-  new drag and drop problem type and adding these problems to your course, see
-  :ref:`drag_and_drop_problem`.
+* If your course includes instructions for learners, verify that the
+  instructions reflect the current user interface of the LMS. For example, you
+  might want to revise a description of the problem **Check** button, which was
+  accurate before October 2016, to reflect its new label, **Submit**.
 
 You can also refer to the :ref:`Launch` topic for tools and ideas that help you
 prepare the course for launch.
