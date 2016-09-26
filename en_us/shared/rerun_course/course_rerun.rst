@@ -201,8 +201,8 @@ who enroll in the new course run.
   :ref:`Markdown-style formatting <Simple Editor>` or :ref:`OLX markup
   <Advanced Editor>` of any problems created before September 2016.
   For more information about the updates that you can make to improve the
-  accessibility of these problem types, see the :ref:`Release Notes
-  <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`.
+  accessibility of these problem types, see the `Release Notes
+  <http://edx.readthedocs.io/projects/edx-release-notes/en/latest/studio_index.html#updates-to-capa-problem-types>`_.
 
 * If your course includes instructions for learners, verify that the
   instructions reflect the current user interface of the LMS. For example, you
