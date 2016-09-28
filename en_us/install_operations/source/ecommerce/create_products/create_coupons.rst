@@ -160,10 +160,11 @@ To specify the courses for your coupon, follow these steps.
       To see a preview of the results that your query will return, enter your
       query in the **Valid for** field, and then select **Preview**. A dialog
       box opens that lists the courses in your query results.
+   #. For **Seat Types**, select **Non-credit** (which can be **Verified**,
+      **Professional**, or both), or **Credit**.
 
-#. For **Seat Types**, select **Verified**, **Professional**, or both. Note
-   that you can only select both options if your coupon applies to multiple
-   courses.
+.. note::
+  Credit seats are only supported in coupons for multiple courses.
 
 After you complete these steps, you must :ref:`specify usage limitations for
 your coupon <Specify Coupon Usage Limitations>`.
