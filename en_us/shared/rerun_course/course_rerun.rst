@@ -166,7 +166,7 @@ course for release.
   the cohorts.
 
 * For a course that includes drag and drop problems, replace any problems
-  created prior to April 2016, with the newer drag and drop problem component,
+  created prior to April 2016 with the newer drag and drop problem component,
   which is accessible and mobile ready. For more information about enabling the
   new drag and drop problem type and adding these problems to your course, see
   :ref:`drag_and_drop_problem`.
@@ -206,7 +206,7 @@ who enroll in the new course run.
 
 * If your course includes instructions for learners, verify that the
   instructions reflect the current user interface of the LMS. For example, you
-  might want to revise a description of the problem **Check** button, which was
+  could revise a description of the problem **Check** button, which was
   accurate before October 2016, to reflect its new label, **Submit**.
 
 You can also refer to the :ref:`Launch` topic for tools and ideas that help you
