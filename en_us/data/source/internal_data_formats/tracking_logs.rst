@@ -2907,6 +2907,10 @@ The browser emits a ``problem_graded`` event each time a user selects
 The server emits ``problem_rescore`` events when a problem is successfully
 rescored.
 
+In these events, the user who rescored the problem is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally
+submitted the response to the problem is identified in the ``student`` field.
+
 **Event Source**: Server
 
 ``event`` **Member Fields**:
@@ -2944,7 +2948,7 @@ rescored.
      - Current problem state.
    * - ``student``
      - string
-     -
+     - The username of the person whose response is being rescored.
    * - ``success``
      - string
      - 'correct', 'incorrect'
@@ -2957,6 +2961,10 @@ rescored.
 
 The server emits ``problem_rescore_fail`` events when a problem cannot be
 successfully rescored.
+
+In these events, the user who rescored the problem is identified in the
+``username`` and ``context.user_id`` fields, and the user who originally
+submitted the response to the problem is identified in the ``student`` field.
 
 **Event Source**: Server
 
@@ -2980,7 +2988,7 @@ successfully rescored.
      - Current problem state.
    * - ``student``
      - string
-     -
+     - The username of the person whose response was being rescored.
 
 
 ``problem_reset``
